@@ -11,9 +11,7 @@ $(window).load(function() {
   });
 });
 
-
 /* Scroll to Top */
-
   $(".totop").hide();
 
   $(function(){
@@ -34,3 +32,7 @@ $(window).load(function() {
     });
 
   });
+
+$('.nav a').on('click', function(){
+    $(".navbar-toggle").click() //bootstrap 3.x by Richard
+});
