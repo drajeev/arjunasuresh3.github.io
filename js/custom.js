@@ -5,7 +5,7 @@ $(window).load(function() {
     animation: "slide",
     controlNav: true,
     pauseOnHover: true,
-    slideshowSpeed: 15000,
+    slideshowSpeed: 2500,
     prevText: "", 
     nextText: ""
   });
@@ -34,5 +34,5 @@ $(window).load(function() {
   });
 
 $('.nav a').on('click', function(){
-    $(".navbar-toggle").click() //bootstrap 3.x by Richard
+    $(".navbar-toggle").click(); //bootstrap 3.x by Richard
 });

@@ -189,6 +189,14 @@ hr {
     font-family: 'Droid Serif', serif;
     font-size: 15px;
 
+    /*font-style: italic;*/
+    line-height: 30px;
+}
+
+#main-invite-inner {
+    font-family: 'Droid Serif', serif;
+    font-size: 15px;
+
     font-style: italic;
     line-height: 30px;
 }
